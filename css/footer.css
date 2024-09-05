@@ -1,0 +1,69 @@
+footer.footer {
+    background: #3a4d39;
+    padding: 5em 0 0;
+}
+
+.viverra p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.heading_text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.heading_text {
+    margin-bottom: 30px;
+}
+
+.viverra-menu ul li a {
+    color: #fff;
+    padding: 6px 0;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.social-icons-wrapper ul {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons-wrapper ul li a {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF35;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons-wrapper ul li a:hover {
+    background-color: var(--white);
+    color: var(--global-color);
+
+}
+.bottom-content p {
+    margin: 0;
+}
+
+.footer-bottom {
+    background: #141c14;
+    padding: 1.5em 0;
+    text-align: center;
+    margin-top: 5em;
+}
+.bottom-content p {
+    color: #ffff;
+    font-size: 16px;
+}

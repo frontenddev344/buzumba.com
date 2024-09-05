@@ -1,0 +1,7 @@
+:root {
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --global-color: rgb(115, 144, 114);
+    --btn-color: hsl(42, 44%, 87%);
+    --text-color: #141c14;
+}
