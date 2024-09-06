@@ -25,6 +25,11 @@ footer.footer {
     display: block;
     font-size: 16px;
     text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+
+.viverra-menu ul li a:hover {
+    color: #739072;
 }
 
 .social-icons-wrapper ul {
@@ -53,6 +58,7 @@ footer.footer {
     color: var(--global-color);
 
 }
+
 .bottom-content p {
     margin: 0;
 }
@@ -63,6 +69,7 @@ footer.footer {
     text-align: center;
     margin-top: 5em;
 }
+
 .bottom-content p {
     color: #ffff;
     font-size: 16px;

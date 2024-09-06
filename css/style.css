@@ -375,6 +375,12 @@ section.faq-sec h3 {
     background: var(--white);
 }
 
+.astir:hover img {
+    transform: scale(1.05) rotate(2deg);
+    opacity: .8;
+
+}
+
 .recommended-text {
     padding: 20px 20px 70px;
 }
@@ -407,6 +413,7 @@ a.morelesss-button:hover,
 
 .astir_img {
     height: 350px;
+    overflow: hidden;
 }
 
 .astir_img a {
@@ -416,6 +423,7 @@ a.morelesss-button:hover,
 .astir_img img {
     height: 100%;
     object-fit: cover;
+    transition: all .4s ease;
 }
 
 .seaside_heading {
@@ -479,8 +487,14 @@ section.beach-hotels-bnr {
     background-position: center;
 }
 
-section.spa-bnr{
+section.spa-bnr {
     background: url(../images/spa-hotels-bnr.avif)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section.casino-hotels-bnr {
+    background: url(../images/Casino-Hotels-Bnr.avif)no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -497,4 +511,47 @@ section.inner_bnr .bnr-content h2 {
 
 section.seaside {
     padding-bottom: 40px;
+}
+
+.blog_sec_wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: var(--white);
+}
+
+.blog_sec_img {
+    height: 276px;
+    overflow: hidden;
+}
+
+.blog_sec_img img {
+    height: 100%;
+}
+
+section.blog_sec {
+    padding-bottom: 60px;
+}
+
+.blog_sec_content {
+    padding: 25px 30px 30px;
+}
+
+.blog_sec_heading {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.blog_sec_wrapper:hover img {
+    transform: scale(1.05) rotate(2deg);
+    opacity: .8;
+}
+
+.blog_sec_wrapper img {
+    transition: all .4s ease;
 }
