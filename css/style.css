@@ -498,7 +498,11 @@ section.casino-hotels-bnr {
     background-size: cover;
     background-position: center;
 }
-
+section.business-hotels-bnr{
+    background: url(../images/Business-Hotels-Bnr.jpeg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 section.inner_bnr .bnr-content {
     text-align: center;
 }
