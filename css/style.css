@@ -535,6 +535,7 @@ section.seaside {
 
 .blog_sec_img img {
     height: 100%;
+    object-fit: cover;
 }
 
 section.blog_sec {
@@ -581,4 +582,14 @@ section.inner_bnr.blog-t {
     background: url(../images/blog2.jpg)no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.blog_content_inner {
+    padding-top: 40px;
+}
+
+.blog_content_inner h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #3a4d39;
 }
