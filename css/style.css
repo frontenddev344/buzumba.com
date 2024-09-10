@@ -498,11 +498,13 @@ section.casino-hotels-bnr {
     background-size: cover;
     background-position: center;
 }
-section.business-hotels-bnr{
+
+section.business-hotels-bnr {
     background: url(../images/Business-Hotels-Bnr.jpeg)no-repeat;
     background-size: cover;
     background-position: center;
 }
+
 section.inner_bnr .bnr-content {
     text-align: center;
 }
@@ -558,4 +560,25 @@ section.blog_sec {
 
 .blog_sec_wrapper img {
     transition: all .4s ease;
+}
+
+section.inner_bnr.blog-one {
+    background: url(../images/blog1-image.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.blog_img {
+    height: 500px;
+}
+
+.blog_img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+section.inner_bnr.blog-t {
+    background: url(../images/blog2.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
 }
