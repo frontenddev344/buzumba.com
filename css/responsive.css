@@ -1,3 +1,20 @@
+@media screen and (min-device-width: 991px) and (max-device-width: 1300px) {
+    div#navbarSupportedContent ul.navbar-nav li a {
+        font-size: 14px;
+    }
+
+    .bix-main-menu ul li {
+        margin-left: 10px;
+    }
+
+}
+
+@media(max-width:1199px) {
+    .site-bnr {
+        height: 500px;
+    }
+}
+
 @media(max-width:991px) {
     div#navbarSupportedContent {
         display: none;
@@ -32,4 +49,11 @@
         order: 2;
     }
 
-}   
+    .hotels_inner .row .col-lg-3.col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .choose_us_innr .row .col-lg-3.col-md-6 {
+        margin-bottom: 30px;
+    }
+}
