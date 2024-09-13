@@ -13,6 +13,13 @@
     .site-bnr {
         height: 500px;
     }
+
+    .recommended-text {
+        padding: 20px 20px 140px;
+    }
+    .visit-btns a {
+        margin-bottom: 16px;
+    }
 }
 
 @media(max-width:991px) {
