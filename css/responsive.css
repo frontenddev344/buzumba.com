@@ -15,8 +15,9 @@
     }
 
     .recommended-text {
-        padding: 20px 20px 14  0px;
+        padding: 20px 20px 14 0px;
     }
+
     .visit-btns a {
         margin-bottom: 16px;
     }
@@ -62,5 +63,21 @@
 
     .choose_us_innr .row .col-lg-3.col-md-6 {
         margin-bottom: 30px;
+    }
+}
+
+@media(max-width:575px) {
+    .wrapper {
+        max-width: 350px;
+
+    }
+
+    .wrapper.show {
+        right: 40px;
+    }
+}
+@media(max-width:424px) {
+    .wrapper.show {
+        right: 10px;
     }
 }
