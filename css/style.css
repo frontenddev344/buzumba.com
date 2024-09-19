@@ -220,7 +220,7 @@ section.privacy .inner_heading h2 {
 
 /*  */
 .newslatter {
-    padding: 4%;
+    padding: 2%;
     background: #f1f4f1;
     margin: 0 0 60px 0;
 }
@@ -599,7 +599,7 @@ section.inner_bnr.blog-t {
     position: fixed;
     bottom: 50px;
     right: -100%;
-    max-width:454px;
+    max-width: 454px;
     width: 100%;
     background: #141c14;
     border-radius: 8px;
@@ -660,3 +660,6 @@ section.inner_bnr.blog-t {
 }
 
 /* Cookies CSS End */
+.ultimate_content {
+    text-align: center;
+}

@@ -140,6 +140,30 @@ header {
     text-decoration: none;
 }
 
+.bix-mobile-menu .bix-menu-inner .bix-menu-content ul li a.active {
+    color: var(--global-color);
+}
+
+
+.bix-mobile-menu .bix-menu-inner .bix-menu-content ul li a::before {
+    content: '';
+    position: absolute;
+    left:6px;
+    transform: translateY(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--global-color);
+    opacity: 0;
+    transition: all 0.1s linear;
+    top: 50%;
+}
+
+ .bix-mobile-menu .bix-menu-inner .bix-menu-content ul li a.active::before,
+ .bix-mobile-menu .bix-menu-inner .bix-menu-content ul li a:hover::before {
+    opacity: 1;
+}
+
 .wishlist_icon ul {
     gap: 22px;
 }
