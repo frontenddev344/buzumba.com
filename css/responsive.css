@@ -83,6 +83,20 @@
     .bix-mobile-menu {
         width: 100%;
     }
+
+    .wrapper .buttons {
+        justify-content: center;
+        gap: 12px;
+        max-width: 244px;
+    }
+
+    footer.footer {
+        padding: 3em 0 0;
+    }
+
+    .footer-bottom {
+          margin-top: 3em;
+    }
 }
 
 @media(max-width:424px) {
