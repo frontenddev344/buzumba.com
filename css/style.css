@@ -669,3 +669,10 @@ section.inner_bnr.blog-t {
 .ultimate_content {
     text-align: center;
 }
+.viverra a {
+    color: #ffff;
+}
+
+.viverra a:hover {
+    color: #739072;
+}
