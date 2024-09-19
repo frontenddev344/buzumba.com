@@ -4,7 +4,7 @@
     }
 
     .bix-main-menu ul li {
-        margin-left: 10px;
+        margin-left: 18px;
     }
 
 }
@@ -26,6 +26,10 @@
 @media(max-width:991px) {
     div#navbarSupportedContent {
         display: none;
+    }
+
+    .footer_iiner .col-lg-3.col-md-6 {
+        margin-bottom: 30px;
     }
 
     span.navbar-toggler.shadow-none {
@@ -75,7 +79,12 @@
     .wrapper.show {
         right: 40px;
     }
+
+    .bix-mobile-menu {
+        width: 100%;
+    }
 }
+
 @media(max-width:424px) {
     .wrapper.show {
         right: 10px;

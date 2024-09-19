@@ -382,10 +382,9 @@ section.faq-sec h3 {
 }
 
 .recommended-text {
-    padding: 20px 20px 132px;
+    padding: 20px 20px 72px;
 }
 
-a.morelesss-button,
 .visit-btns a {
     padding: 10px 20px;
     background-color: var(--btn-color);
@@ -398,11 +397,18 @@ a.morelesss-button,
     transition: all 0.3s linear;
 }
 
-a.morelesss-button:hover,
 .visit-btns a:hover {
     background-color: var(--global-color);
     border: 1px solid var(--global-color);
     color: var(--white);
+}
+
+.morelesss-button {
+    color: var(--global-color);
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: block;
 }
 
 .visit-btns {
